@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+header{
+    font-family: 'Young Serif', serif;
+}
 body{
     display:flex;
     flex-direction:column;
