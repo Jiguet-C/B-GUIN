@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-header{
+h1,li{
     font-family: 'Young Serif', serif;
 }
 body{
