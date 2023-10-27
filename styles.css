@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Young+Serif&display=swap');
+h1,h2,.menu{
+    font-family: 'Young Serif', serif;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display:flex;
+    flex-direction:row;
+    flex:auto;
+    padding:1em;
+}
+main{
+    display:flex;
+    flex-direction:row;
+    flex:auto;
+    padding:1em;
+}
+article{
+    flex:2;
+    overflow-y:auto;
+    padding: 0em 1em 1em 1em;
+    border: 1px solid darkolivegreen;
+}
+aside{
+    flex:1;
+    overflow-y:auto;
+    padding: .5em;
+    background-color: darkolivegreen;
+    color: white;
+}
+.logo{
+    display: flex;
+    padding: 5px;
+    color: darkolivegreen;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    padding: .5em;
+    text-decoration: none;
+    color: coral;
+}
+li {
+    padding: 5px;
+  }
+h2{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 0px 10px;
+}
+h3{
+    border-bottom: 1px solid coral;
+    color: coral;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.img-adapt{
+    height: auto;
+    max-width: 100%;
+}
+.img-petit{
+    height:auto;
+    max-width: 50%;
